@@ -1,3 +1,6 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 #content
     {
         max-width: 1600px;
@@ -8,6 +11,7 @@ nav a
         text-align: center;
         color: white;
         text-decoration: none;
+        padding: 35px;
     }
 #hero-img
     {
@@ -24,10 +28,17 @@ nav a
 .home-title
     {
         color: black;
+       font-family: "Source Serif 4", sans-serif;
+       font-size: 2em;
+       margin-top: 10px;
     }
 main section
     {
         text-align: center;
+    }
+main section img
+    {
+        box-sizing: border-box;
     }
 #background
     {
@@ -37,6 +48,14 @@ body
     {
         color: white;
         background-color: #CECAC8;
+        font-family: "DM Serif Text","Source Serif 4", sans-serif;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+    }
+    h2
+    {
+        margin: 0;
     }
 header
     {
@@ -50,6 +69,10 @@ nav a:hover
     {
         color: white;
         text-decoration: none;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
 .schedule:hover, .join:hover
     {
@@ -58,23 +81,33 @@ nav a:hover
 #background
     {
         background-color: #0F2159;
+        padding-bottom: 10px;
+        margin-bottom: 100px;
     }
 .msg
     {
         color: white;
+        line-height: 1.5em;
+        padding: 35px;
     }
 .msg h2
     {
         color: black;
+        font-family: "Source Serif 4", sans-serif;
+        margin-top: 100px;
     }
 .msg p
     {
         color: black;
+        font-size: .8em;
+        padding-bottom: 15px;
     }
 footer
     {
        background-color: #0F2159;
        color: white;
+       padding: 25px 50px;
+       margin-top: 200px;
     }
 footer a
     {
@@ -93,7 +126,27 @@ footer p a:hover
     {
         text-decoration: underline;
     }
+footer .social img
+    {
+        padding-top: 15px;
+    }
 .logo, .icon
     {
         width: 80px;
+    }
+#logo_link
+    {
+        padding-top: 5px;
+    }
+.icon
+    {
+        padding-top: 10px;
+    }
+.rivers-card, .camping-card, .rapids-card
+    {
+        margin: 200px;
+    }
+.card-img
+    {
+        border: solid #0F2159 10px;
     }
