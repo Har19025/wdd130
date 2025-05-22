@@ -28,7 +28,7 @@ nav a
 .home-title
     {
         color: black;
-       font-family: "Source Serif 4", sans-serif;
+       font-family: "Source Serif 4", Helvetica, sans-serif;
        font-size: 2em;
        margin-top: 10px;
     }
@@ -68,6 +68,7 @@ nav a:hover
 .schedule, .join
     {
         color: white;
+        background-color: #0F2159;
         text-decoration: none;
         font-size: 18px;
         padding: 15px 30px;
