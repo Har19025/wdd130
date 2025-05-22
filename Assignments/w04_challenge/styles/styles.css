@@ -1,0 +1,58 @@
+* 
+    {
+        background-color: steelblue;
+    }
+header
+    {
+        text-align: center;
+        color: white;
+    }
+header h1, h3 
+    {
+        font-family: Arial;
+        font-weight: bold;
+    }
+h1:hover
+    {
+        color: black;
+    }
+header p
+    {
+        width: 30%;
+        margin: auto;
+    }
+body 
+    {   
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        font-size: 1.15em;
+    }
+body div
+    {
+        margin: auto;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.4em;
+        color: white;
+        width: 25%;
+    }
+body ol
+    {
+        font-family: Arial;
+        display: inline-block;
+        text-align: left;
+    }
+img
+    {  
+        display: block;
+        margin: 0 auto;
+        width: 25%;
+    }
+    footer
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            width: 15%;
+            margin: auto;
+            font-size: .75em;
+        }

@@ -1,0 +1,24 @@
+#content
+    {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+.main-img
+    {
+        display: block;
+    }
+.background
+    {   
+        margin: 0 0;
+        text-align: center;
+        background: grey;
+        padding: 5px;
+    }
+.left, .center, .right
+    {
+        display: inline;
+        max-width: 250px;
+        max-height: 250px;
+        padding: 40px;
+        border-radius: 50%;
+    }
