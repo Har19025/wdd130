@@ -1,0 +1,142 @@
+#background
+    {
+        background-color: #aed5dd;
+    }
+.logo
+    {
+        width: 80px;
+    }
+#logo_link
+    {
+       justify-self: center;
+       align-self: center;
+    }
+header
+    {
+        display: grid;
+        grid-template-columns: 150px 150px 150px auto;
+        background-color: #303433;
+        margin-bottom: 80px;
+    }
+nav
+    {
+        display: flex;
+        justify-content: space-around;
+        background-color: #303433;
+        align-items: center;
+    }
+nav a
+    {
+        text-align: center;
+        color: white;
+        padding: 30px;
+        font-size: 1.5em;
+        font-family: 'Times New Roman', helvetica, sans-serif;
+
+    }
+nav a:hover
+    {
+        color: white;
+        background-color: #919999;
+    }
+.self
+    {
+        max-width: 25%;
+        border: solid #919999 5px;
+        margin-right: 10%;
+        float: left;
+        margin-top: -50px;
+        margin-bottom: 2%;
+    }
+#intro
+    {
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 10%;
+        vertical-align: middle;
+        padding-bottom: 70px;
+        font-family: helvetica, sans-serif;
+    }
+#intro h1
+    {
+        text-align: left;
+        text-decoration: underline;
+        font-family: 'Times New Roman', helvetica, sans-serif;
+    }
+#intro h3
+    {
+        font-weight: normal;
+    }
+#spacer 
+    {   
+        display: grid;
+        height: 40px;
+        width: 100%;
+        background-color: #303433;
+        margin-bottom: 2%;
+    }
+.couple
+    {
+        max-width: 70%;
+        border: solid #919999 5px;
+        margin-left: 15%;
+        margin-top: 25px;
+    }
+#second
+    {
+        display: grid;
+        grid-template-columns: 1fr 55%;
+        grid-template-rows: 1fr;
+        text-align: center;
+        justify-content: center;
+    }
+#second h3
+    {
+        margin-right: 50px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        max-height: auto;
+        grid-row: 1/3;
+        grid-column: 2/3;
+        font-family: helvetica, sans-serif;
+        font-weight: normal;
+    }
+#second h1
+    {
+        text-align: left;
+        text-decoration: underline;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        font-family: 'Times New Roman', helvetica, sans-serif;
+    }
+footer
+    {
+       background-color: #303433;
+       color: white;
+       grid-gap: 50px;
+       margin-top: 50px;
+       display:grid;
+       grid-template-columns: 100px 100px auto 200px;
+       align-items: center;
+       align-content: center;
+       text-align: center;
+       font-size: 1.2em;
+       font-family: 'Times New Roman', helvetica, sans-serif;
+    }
+footer p
+    {
+        grid-column: 4/5;
+        text-align: center;
+    }
+footer img
+    {   
+        margin-top: 5px;
+    }
+footer a:hover
+    {
+        color: white;
+        background-color: #919999;
+    }
+
+
+
