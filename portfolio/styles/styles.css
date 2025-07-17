@@ -200,11 +200,74 @@ footer a:hover
     {
         grid-column: 2/3;
         grid-row: 1/2;
-    }    
+    } 
+/*Page 3 Begins*/   
+.ach-head
+    {
+        text-align: center;
+    }
+.container
+    {
+        outline: 1px solid black;
+        margin-left: 65px;
+        margin-right: 65px;
+        margin-top: -40px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+.ach-text
+    {
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+#spacer-ach
+    {
+        display: grid;
+        height: 40px;
+        width: 100%;
+        background-color: #303433;
+    }
+#spacer-ach2
+    {
+        display: grid;
+        height: 40px;
+        width: 100%;
+        background-color: #303433;
+    }
+.ach-grid
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        max-width: 1200px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.ach-img
+    {
+        max-height: 350px;
+        margin: 0 auto;
+        background-color: #aed5dd;
+        padding: 5px;
+        
+    }
+.ach-img-lrg
+    {
+        max-height: 450px;
+        margin: 0 auto;
+        background-color: #aed5dd;
+        padding: 5px;
+    }
 /*
     {
         outline: 1px solid red;
     }
+*/
+
 
 
 
